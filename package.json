@@ -11,6 +11,7 @@
 		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
 	},
 	"devDependencies": {
+		"@sveltejs/adapter-vercel": "next",
 		"@sveltejs/kit": "next",
 		"@typescript-eslint/eslint-plugin": "^4.31.1",
 		"@typescript-eslint/parser": "^4.31.1",
@@ -22,14 +23,14 @@
 		"svelte": "^3.42.6",
 		"svelte-check": "^2.2.6",
 		"svelte-preprocess": "^4.9.4",
-		"tslib": "^2.3.1",
-		"typescript": "^4.4.3",
-		"@sveltejs/adapter-vercel": "next"
+		"tslib": "^2.3.1"
 	},
 	"type": "module",
 	"dependencies": {
 		"@apollo/client": "^3.4.16",
 		"graphql": "^15.6.1",
-		"svelte-apollo": "^0.4.0"
+		"react": "^17.0.2",
+		"svelte-apollo": "^0.4.0",
+		"typescript": "^4.4.3"
 	}
 }

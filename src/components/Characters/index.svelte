@@ -1,7 +1,7 @@
 <script>
 	// @ts-nocheck
 	import { query } from 'svelte-apollo';
-	import { gql } from '@apollo/client/core';
+	import { gql } from '@apollo/client';
 	import SectionWrapper from '../SectionWrapper/index.svelte';
 	import SingleCharacter from '../Characters/SingleCharacter.svelte';
 

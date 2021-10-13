@@ -1,5 +1,5 @@
 <script>
-	import { ApolloClient, InMemoryCache } from '@apollo/client/core';
+	import { ApolloClient, InMemoryCache } from '@apollo/client';
 	import { setClient } from 'svelte-apollo';
 
 	const cache = new InMemoryCache();
